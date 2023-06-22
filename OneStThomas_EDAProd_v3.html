@@ -1,0 +1,66 @@
+<!--  ----------------------------------------------------------------------  --> 
+<!--  NOTE: Please add the following <META> element to your page <HEAD>.      --> 
+<!--  If necessary, please modify the charset parameter to specify the        --> 
+<!--  character set of your HTML page.                                        --> 
+<!--  ----------------------------------------------------------------------  --> 
+<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8"> 
+    <!--  ----------------------------------------------------------------------  --> 
+    <!--  NOTE: Please add the following <META> element to your page <HEAD>.      --> 
+    <!--  If necessary, please modify the charset parameter to specify the        --> 
+    <!--  character set of your HTML page.                                        --> 
+    <!--  ----------------------------------------------------------------------  --> 
+    <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8"> 
+    <!--  ----------------------------------------------------------------------  --> 
+    <!--  NOTE: Please add the following <FORM> element to your page.             --> 
+    <!--  ----------------------------------------------------------------------  --> 
+    <form action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST"> 
+    <input type=hidden name="orgid" value="00Df2000000CuDr"> 
+    <input type=hidden name="retURL" value="https://one.stthomas.edu/sites/student-affairs/center-for-well-being/SitePage/78903/thank-you"> 
+    <input type=hidden id="recordType" name="recordType" value="012Do000000xOXS"> 
+    <input type=hidden name="subject" value="Student Self-Report Form"> 
+    <input type="hidden"  id="external" name="external" value="1" /> 
+    <!--  ----------------------------------------------------------------------  --> 
+    <!--  NOTE: These fields are optional debugging elements. Please uncomment    --> 
+    <!--  these lines if you wish to test in debug mode.                          --> 
+    <!--  <input type="hidden" name="debug" value=1>                              --> 
+    <!--  <input type="hidden" name="debugEmail"                                  --> 
+    <!--  value="ryan.blake@stthomas.edu">                                        --> 
+    <!--  ----------------------------------------------------------------------  --> 
+    Name<br> 
+    <input  id="00NDo000006ImEp" name="00NDo000006ImEp" size="100" type="text" /><br><br> 
+    St. Thomas Student/Employee ID:<br> 
+    <input  id="00NDo000006ImF5" name="00NDo000006ImF5" size="15" type="text" /><br><br> 
+    St. Thomas Email (ex: tomm0012@stthomas.edu):<br>  
+    <input  id="00NDo000006ImF4" maxlength="80" name="00NDo000006ImF4" size="30" type="text" required/><br><br> 
+    Phone: <br> 
+    <input  id="00NDo000006ImF6" maxlength="40" name="00NDo000006ImF6" onkeydown="formatPhoneOnEnter(this, event);" size="30" type="tel" required/><br><be> 
+    <br>I tested positive for COVID-19:<br> 
+    <select  id="00NDo000006ImFv" name="00NDo000006ImFv" title="Tested Positive"><option value="">--None--</option><option value="Yes">Yes</option> 
+    <option value="No">No</option> 
+    </select><br><br> 
+    Test date?<br> 
+    <span class="dateInput dateOnlyInput"><input  id="00NDo000006ImEg" name="00NDo000006ImEg" size="12" type="date" /></span><br><br> 
+    Date of first COVID symptom(s).<br>
+    <span class="dateInput dateOnlyInput"><input  id="00NDo000006ImVe" name="00NDo000006ImVe" size="12" type="date"/> </span><br><br> 
+    Do you work on campus?<br> 
+    <select  id="00NDo000006ImFy" name="00NDo000006ImFy" title="Work on Campus"><option value="">--None--</option><option value="Yes">Yes</option> 
+    <option value="No">No</option> 
+    </select><br><br> 
+    If yes, which department?<br> 
+    <textarea  id="00NDo000006ImEj" name="00NDo000006ImEj" type="text" wrap="soft"></textarea><br><br> 
+    Live on Campus:<br> 
+    <select  id="00NDo000006ImEm" name="00NDo000006ImEm" title="Live on Campus"><option value="">--None--</option><option value="Yes">Yes</option> 
+    <option value="No">No</option> 
+    </select><br><br> 
+    Residence Hall:<br> 
+    <textarea  id="00NDo000006ImEz" name="00NDo000006ImEz" type="text" wrap="soft"></textarea><br><br> 
+    <b>Consent Information</b><br> 
+    Your positive test result will be reported directly by your health care provider to the Minnesota Department of Health (MDH) in accordance with applicable law and St. Thomas is also required to report the test result to MDH. In addition to this required reporting, by selecting “yes” below, you consent to the University sharing with MDH and local health authorities information related to you for public health purposes. Clicking “yes” may improve coordination between MDH and the University, which may benefit you. In certain circumstances, the University may be permitted or required to share information with MDH, even without your consent. 
+    <br><br> 
+    <!-- https://uofstthomasmn--edastaging.sandbox.lightning.force.com/lightning/setup/ObjectManager/Case/FieldsAndRelationships/00N8A00000NNZgA/view -->
+    <p style="color:red;">Consent to Information Sharing: </p> <select  id="00NDo000006ImEZ" name="00NDo000006ImEZ" title="Consent to Contact Tracing" required><option value="">--None--</option><option value="Yes">Yes</option> 
+    <option value="No">No</option> 
+    </select><br><br><br> 
+    <input type="submit" name="submit"><br><br><br><br> 
+    After you submit your form,  please check your UST email for an important message from the Center for Well-Being.  
+    </form> 
